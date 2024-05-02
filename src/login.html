@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <title>Adopt a pussy!</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAvHboAKGenABZVlMA//r1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiAAACIiAAADIgACESAiAiAhEAIRIiIiIiEQAiIAAgIAAiACIgQCIgQCIAIiQAIiQAIgACIiIiIiIgAAIiIiIiIiAAAiIgAAIiIAACIgAAACIgAAIgAAAAAiAAAAAAAAAAAAAAAAAAAAAAD//wAA4AcAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAgAEAAIABAACDwQAAh+EAAM/zAAD//wAA" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <header>
+      <div class="text-center">
+        <div class="row">
+          <div class="col-3">
+            <a class="nav-link logotext" href="index.html"><img src="/imgs/nyan.gif" alt="cat" class="logo">Adopt a pussy!</a>
+          </div>
+          <div class="col-6">
+            <ul class="nav nav-pills justify-content-center headpills">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fogado.html">Örökbefogadás</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="elerhetoseg.html">Elérhetőségek</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3 reg">
+            <ul class="nav nav-pills justify-content-end headpills ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html"><img src="imgs/login.png" alt="login" class="login">Bejelentkezés</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      
+      <form name="form1">
+        <div class="container loginbox px-4 py-4 text-center justify-content-center">
+          <h1>Bejelentkezés</h1>
+          <div class="mb-3 mt-4 row">
+            <label for="staticEmail" class="col-sm-3 col-form-label">E-mail</label>
+            <div class="col-sm-8">
+              <input type='text' name='text1'/>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-3 col-form-label">Jelszó</label>
+            <div class="col-sm-8">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+            <button type="submit" class="btn btn-primary mt-2 mb-2" name="submit" value="Belép" onclick="ValidateEmail(document.form1.text1)">Bejelentkezés</button>
+          <div class="reglink mt-3">
+            <p>Nem rendelkezik még fiókkal? <a href="reg.html"> Regisztráljon itt!</a></p>
+          </div>
+        </div>
+      </form>
+      
+      <footer class="fixed-bottom">©2024 ADOPT A PUSSY | All rights reserved</footer>
+    <script src="app.js"></script>
+  </body>
+</html>

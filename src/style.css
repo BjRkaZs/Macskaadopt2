@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa';
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    color: rgb(140, 49, 231);
+    text-decoration: none;
+}
+
+h1{
+    margin-bottom: 15px;
+    color: rgb(140, 49, 231);
+}
+
+h4{
+    font-weight: 1000;
+}
+
+footer{
+    background-image: linear-gradient(rgb(33,37,41) 35%, rgb(80, 10, 150));
+    text-align: center;
+}
+
+.btn, .btn2{
+    color: whitesmoke;
+    background-color: rgb(80, 10, 150);
+    border:3px solid rgb(140, 49, 231);
+    height: 45px;
+    border-radius: 20px;
+}
+
+.btn{
+    width: 180px;
+}
+
+.btn2{
+    width: 300px;
+    border-radius:0px 0px 20px 20px ;
+}
+
+.btn:hover, .btn2:hover{
+    color: whitesmoke;
+    background-color: rgb(100, 10, 190);
+    border:3px solid rgb(140, 49, 231);
+    height: 45px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    width: 180px;
+}
+
+.btn2:hover{
+    width: 300px;
+    border-radius:0px 0px 20px 20px ;
+}
+
+/*header*/
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(rgb(80, 10, 150), 7%, rgb(33,37,41));
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+.headpills{
+    padding-top: 12px;
+}
+
+.login{
+    max-height: 40px;
+    padding-right: 10px;
+}
+
+.logo{
+    max-height: 80px;
+    padding-right: 15px;
+}
+
+.logotext{
+    color: rgb(140, 49, 231)
+}
+
+.reg{
+    padding:0px;
+}
+
+a:hover{
+    color: rgb(252, 196, 227) !important;
+}
+
+.nav-pills > li > a {
+    color: rgb(140, 49, 231) !important;
+}
+
+.nav-pills > li > a:hover {
+    color: rgb(252, 196, 227) !important;
+}
+
+.nav-pills > li > a.active {
+    color: whitesmoke !important;
+    background-color: rgb(80, 10, 150) !important;
+    border-radius: 18px;
+}
+
+/*body*/
+
+.tbox, .cbox, .catbox{
+    background-color: rgb(32, 32, 32);
+    border:2px solid black;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.tbox{
+    width: 1100px;
+}
+
+.cbox{
+    width: 800px;
+}
+
+.catbox{
+    width: 1000px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+/*login*/
+
+.loginbox, .regbox{
+    background-color: rgb(32, 32, 32);
+    border:2px solid black;
+    width: 700px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.form-control:focus{
+    outline: 2px solid rgb(80, 10, 150);
+    border: 1px solid rgb(140, 49, 231);
+}
+
+.loginbox{
+    margin-top: 7%;
+}
+
+.regbox{
+    margin-top: 1.8%;
+}
+
+i{
+    color: rgb(140, 49, 231);
+}
+
+/*adopt*/
